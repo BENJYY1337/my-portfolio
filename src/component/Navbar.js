@@ -15,6 +15,7 @@ const useStyles = makeStyles((theme) => ({
     root: {
     backgroundColor: "#FFFFFF",
     boxShadow: "none",
+    paddingBottom: "50px",
     },
 
     posNav: {
