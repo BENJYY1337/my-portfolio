@@ -8,7 +8,6 @@ import Box from '@material-ui/core/Box'
 const useStyles = makeStyles((theme) => ({
 
     background: {
-
     },
 
 }));
