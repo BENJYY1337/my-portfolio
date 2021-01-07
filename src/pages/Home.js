@@ -7,6 +7,7 @@ import InfoInCard from "../component/InfoInCard";
 import Grid from "@material-ui/core/Grid";
 import Container from "@material-ui/core/Container";
 import Box from "@material-ui/core/Box";
+import Work from "../component/Work";
 
 const cards = [
   {
@@ -30,6 +31,7 @@ export default function Home() {
       <Header />
       <Information />
       <InfoInCard />
+      <Work />
     </>
   );
 }
