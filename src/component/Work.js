@@ -10,6 +10,8 @@ import {
   Grid,
   CardActionArea,
   CardMedia,
+  Divider,
+  Container,
 } from "@material-ui/core";
 import MuiLink from "@material-ui/core/link";
 
@@ -21,6 +23,10 @@ import reactForm from "../img/reactForm.png";
 const useStyles = makeStyles({
   colorTitle: {
     color: "#141C3A",
+  },
+
+  customLine: {
+    marginTop: "100px",
   },
 });
 
@@ -73,7 +79,7 @@ export default function Work() {
 
           <Grid item xs={12} sm={6} md={3}>
             <Card variant="outlined" style={{ maxWidth: "100%" }}>
-              <CardActionArea>
+              <CardActionArea href="https://github.com/BENJYY1337/react-form">
                 <CardMedia
                   style={{ height: "210px" }}
                   image={reactForm}
@@ -97,7 +103,7 @@ export default function Work() {
 
           <Grid item xs={12} sm={6} md={3}>
             <Card variant="outlined" style={{ maxWidth: "100%" }}>
-              <CardActionArea>
+              <CardActionArea href="https://github.com/BENJYY1337/react-auth">
                 <CardMedia
                   style={{ height: "210px" }}
                   image={reactCrud}
@@ -121,7 +127,7 @@ export default function Work() {
 
           <Grid item xs={12} sm={6} md={3}>
             <Card variant="outlined" style={{ maxWidth: "100%" }}>
-              <CardActionArea>
+              <CardActionArea href="https://github.com/BENJYY1337/react-vitrine">
                 <CardMedia
                   style={{ height: "210px" }}
                   image={siteVitrine}
@@ -143,6 +149,13 @@ export default function Work() {
             </Card>
           </Grid>
         </Grid>
+        <Container maxWidth="lg">
+          <Divider
+            orientation="horizontal"
+            variant="middle"
+            className={classes.customLine}
+          />
+        </Container>
       </Box>
     </>
   );

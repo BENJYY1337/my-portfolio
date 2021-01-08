@@ -6,6 +6,7 @@ import { Box, Typography, Container } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   root: {
+    // backgroundColor: "#7510F7",
     backgroundColor: "#7510F7",
     color: "#FFFFFF",
   },
