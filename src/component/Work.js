@@ -27,6 +27,7 @@ const useStyles = makeStyles({
 
   customLine: {
     marginTop: "100px",
+    backgroundColor: "#7510F7",
   },
 });
 
@@ -39,7 +40,7 @@ export default function Work() {
         <Typography variant="h4" className={classes.colorTitle} gutterBottom>
           <strong>Mes projets recents</strong>
         </Typography>
-        <Typography>
+        <Typography variant="subtitle1">
           Voici mes projets divers et variés. Si vous voulez en savoir plus{" "}
           <MuiLink
             href="mailto:pernot.benjamin@outlook.fr"

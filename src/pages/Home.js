@@ -6,10 +6,9 @@ import Header from "../component/Header";
 import Navbar from "../component/Navbar";
 import Information from "../component/Information";
 import InfoInCard from "../component/InfoInCard";
-import Grid from "@material-ui/core/Grid";
-import Container from "@material-ui/core/Container";
 import Box from "@material-ui/core/Box";
 import Work from "../component/Work";
+import Collab from "../component/Collab";
 
 const useStyles = makeStyles((theme) => ({}));
 
@@ -24,6 +23,7 @@ export default function Home() {
         <Information />
         <InfoInCard />
         <Work />
+        <Collab />
       </Box>
     </>
   );
