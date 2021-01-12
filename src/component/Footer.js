@@ -31,17 +31,32 @@ export default function Footer() {
         <Typography align="center" variant="h6" gutterBottom>
           Vivre, apprendre & progresser un jour à la fois.
         </Typography>
-        <Box
-          pt={7}
-          display="flex"
-          flexDirection="row"
-          justifyContent="space-around"
-        >
-          <TwitterIcon style={{ color: "#FFFFFF" }} />
-          <LinkedInIcon style={{ color: "#FFFFFF" }} />
-          <FacebookIcon style={{ color: "#FFFFFF" }} />
-          <MailIcon style={{ color: "#FFFFFF" }} />
-          <InstagramIcon style={{ color: "#FFFFFF" }} />
+        <Box pt={7} display="flex">
+          <Box mx={2}>
+            <a href="https://twitter.com/BENJYY1337">
+              <TwitterIcon style={{ color: "#FFFFFF" }} />
+            </a>
+          </Box>
+          <Box mx={2}>
+            <a href="https://www.linkedin.com/in/benjamin-pernot-975916153/">
+              <LinkedInIcon style={{ color: "#FFFFFF" }} />
+            </a>
+          </Box>
+          <Box mx={2}>
+            <a href="https://www.facebook.com/pernot.b">
+              <FacebookIcon style={{ color: "#FFFFFF" }} />
+            </a>
+          </Box>
+          <Box mx={2}>
+            <a href="mailto:pernot.benjamin@outlook.fr">
+              <MailIcon style={{ color: "#FFFFFF" }} />
+            </a>
+          </Box>
+          <Box mx={2}>
+            <a href="https://www.instagram.com/pernot_benjamin/?hl=fr">
+              <InstagramIcon style={{ color: "#FFFFFF" }} />
+            </a>
+          </Box>
         </Box>
         <Box pt={7}>
           <Typography>Benjamin Pernot &#169;</Typography>
