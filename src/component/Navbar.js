@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Navbar() {
+export default function Navbar(props) {
   const classes = useStyles();
 
   return (
@@ -39,13 +39,15 @@ export default function Navbar() {
           <Typography className={classes.posNav}>
             <Logo />
           </Typography>
-          <MuiLink
-            component={Button}
-            href="/contact"
-            className={classes.button}
-          >
-            Contactez-moi
-          </MuiLink>
+          {!props.contact && (
+            <MuiLink
+              component={Button}
+              href="/contact"
+              className={classes.button}
+            >
+              Contactez-moi
+            </MuiLink>
+          )}
         </Toolbar>
       </AppBar>
     </Container>
