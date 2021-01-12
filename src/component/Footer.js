@@ -2,8 +2,7 @@ import React from "react";
 
 import { makeStyles } from "@material-ui/core/styles";
 
-import { Box, Typography, Container, Button } from "@material-ui/core";
-import MuiLink from "@material-ui/core/Link";
+import { Box, Typography } from "@material-ui/core";
 import Logo from "./Logo";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";

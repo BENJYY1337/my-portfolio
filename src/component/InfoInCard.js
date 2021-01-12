@@ -76,7 +76,6 @@ export default function InfoInCard(props) {
               <Box mt={1}>
                 <Grid item xs>
                   <Typography>Github</Typography>
-                  <Typography>Figma</Typography>
                   <Typography>Adobe XD</Typography>
                   <Typography>Slack</Typography>
                   <Typography>VSCode</Typography>
